@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>!Haz completado <br> <span id="tareas-completadas">0</span> de <span id="tareas-total">0 
+        </span> TODO!</h1>
+    </div>
+
+
+    <div class="centro">
+        <input type="search" class="border-radius" id="buscador"/>
+        <input type="button" value="Buscar" class="buscar" id="boton-buscar"/>
+    </div>
+
+    <div class="centros">
+    <ul id="lista-tarea">
+        <li>Trapear <span class="verificar-icon">&#10004;</span>
+        <span class="borrar-icon">&#128465; </span>
+        </li>
+        <li>Ir a comer <span class="verificar-icon">&#10004;</span>
+         <span class="borrar-icon">&#128465; </span>
+        </li>
+        <li>Comprar ropa <span class="verificar-icon">&#10004; </span>
+        <span class="borrar-icon">&#128465; </span>
+        </li>
+        <li>Fregar los trastes <span class="verificar-icon">&#10004; </span>
+         <span class="borrar-icon">&#128465; </span>
+        </li>
+    </ul>
+    </div>
+
+    <div class="button-form">
+        <div class="form" id="tarea-form">
+            <input type="text" class="formulario" placeholder="Agregar tarea">
+            <button class="btn-form" type="button" onclick="addTarea()">Add</button>
+            <button class="btn-form" type="button" onclick="cancelForm()">Cancel</button>
+        </div>
+        <button id="agregar-tarea">+</button>
+    </div>
+      
+    
+    <script src="./main.js"></script>
+
+
+
+        
+</body>
+
+</html
+
+

@@ -1,0 +1,186 @@
+body{
+margin: 0;
+padding: 0;
+height: 100%;
+overflow: hidden;
+background: rgb(49, 21, 71);
+justify-content: center;
+align-items: center;
+font-size: 15px;
+color: aliceblue;
+font-family: serif;
+}
+
+
+
+.header {
+   text-align: center;
+   margin-top: 50px;
+}
+
+h1{
+   font-size: 35px;
+   text-align: center;
+
+}
+
+
+.centro{
+
+   margin-top: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 40px;
+}
+
+
+
+.border-radius{
+width: 350px;
+height: 30px;
+padding: 15px;
+margin: 10px;
+/* margin-left: 250px; */
+font-size: 10px;
+border-radius: 15px;
+border:none ;
+background-color: rgb(89, 67, 110);
+}
+
+.buscar{
+   border:rgb(18, 18, 212);
+   margin-right: 10px;
+   font-size: 100%;
+   width: 6rem;
+   height: 2rem;
+   border-radius: 24px;
+   text-align: center;
+   cursor: pointer;
+}
+
+
+.centros{
+   display: flex;
+   margin-top: 5px;
+   justify-content: center;
+
+}
+
+
+#lista-tarea {
+   width: 25rem;
+   list-style: none;
+   padding: unset;
+   max-height: 300px;
+   overflow-y:scroll ;
+
+}
+
+#lista-tarea::-webkit-scrollbar {
+   width: 5px;
+
+}
+
+#lista-tarea::-webkit-scrollbar-thumb {
+   background-color: black;
+   border-radius: 10px;
+
+}
+
+
+#lista-tarea::-webkit-scrollbar-thumb:hover {
+   background-color: rgb(92, 81, 81);
+
+}
+
+
+li {
+   font-size: 15px;
+   min-height: 5vh;
+   background-color: black;
+   border-radius: 10px;
+   padding: 0 15px;
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   word-break: break-word;
+
+}
+
+li .verificar-icon {
+   margin-left: auto;
+   cursor: pointer;
+}
+
+li .borrar-icon {
+   margin: 0 10px 0 10px;
+   cursor: pointer;
+}
+
+
+.button-form {
+   font-size: 24px;
+   padding: 12px 24px;
+   align-items: end;
+   display: flex;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+}
+
+#button-form {
+   bottom: 12vw;
+   left: 75vw;
+   position: fixed;
+}
+
+
+.form {
+   display: none;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: rgb(198, 183, 207);
+}
+
+.fomulario {
+   width: 24rem;
+   height: 17rem;
+   text-align: center;
+   border-radius: 10px;
+   border: none;
+}
+
+.btn-form {
+   font-size: 1rem;
+   border-radius: 10px;
+   border: none;
+   margin: 10px 0 0 0;
+   color: black;
+   width: 24rem;
+   cursor: pointer;
+}
+
+#agregar-tarea {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: rgb(53, 53, 150);
+   color: aliceblue;
+   font-size: 40px;
+   border: none;
+   transition: transform 0.3s ease-in-out;
+}
+
+#agregar-tarea:hover {
+   transform: rotate(90deg);
+   cursor: pointer;
+}
